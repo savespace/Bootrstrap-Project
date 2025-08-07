@@ -1,0 +1,77 @@
+body {
+      font-family: Arial, sans-serif;
+    }
+
+    .hero {
+      background: url('https://images.pexels.com/photos/302769/pexels-photo-302769.jpeg?_gl=1*1mb74hb*_ga*ODYyMDk3NTg3LjE3NDM5NDAwMjI.*_ga_8JE65Q40S6*czE3NTQ1MDkzMzAkbzkkZzEkdDE3NTQ1MDkzNTkkajMxJGwwJGgw') no-repeat center center/cover;
+      color: white;
+      text-align: center;
+      padding: 150px 0;
+    }
+
+    .hero h1 {
+      font-size: 3.5rem;
+      font-weight: bold;
+    }
+
+    .hero p {
+      font-size: 1.5rem;
+      font-style: italic;
+    }
+
+    .btn-yellow {
+      background-color: #f7c200;
+      border: none;
+      padding: 12px 24px;
+      font-weight: bold;
+    }
+
+    .icon-box i {
+      font-size: 3rem;
+      color: #f7c200;
+      margin-bottom: 10px;
+    }
+
+    .portfolio-item img {
+      width: 100%;
+      aspect-ratio: 1 / 1;
+      object-fit: cover;
+      max-width: 250px;
+      margin: 0 auto;
+      display: block;
+    }
+
+    footer {
+      background-color: #f8f9fa;
+      padding: 40px 0;
+      text-align: center;
+    }
+
+    .footer-content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .footer-content p {
+        margin-bottom: 0;
+    }
+
+    .social-icon {
+        display: inline-block;
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        border-radius: 50%;
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        margin: 0 10px;
+        transition: background-color 0.3s;
+    }
+
+    .social-icon:hover {
+        background-color: #f7c200;
+        color: #000;
+    }
